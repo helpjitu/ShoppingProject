@@ -7,6 +7,7 @@ public class GitTest {
 	public static void gitCheck()
 	{
 		System.out.println("check git");
+		System.out.println("check from eclipse");
 	}
 
 }
