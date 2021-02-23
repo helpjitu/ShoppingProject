@@ -3,11 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="base.Base">
+      <class name="com.SignInTest">
         <methods>
-          <include name="propTest"/>
+          <include name="start"/>
+          <include name="signInTest" invocation-numbers="0"/>
+          <include name="end"/>
         </methods>
-      </class> <!-- base.Base -->
+      </class> <!-- com.SignInTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
